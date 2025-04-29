@@ -1,5 +1,6 @@
-env
-.env.*
-# Ignore all .env files
+# Ignore environment folders and files
+env/
+.env*
 
-data/log/*
+# Ignore logs
+app/data/log/*.log
