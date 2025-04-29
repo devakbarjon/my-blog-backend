@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings
 import os
 
-ENV = os.getenv("ENV", "production")  # default to development
+ENV = os.getenv("ENV", "development")  # default to development
 
 class Settings(BaseSettings):
     app_name: str = "FastAPI Blog"
