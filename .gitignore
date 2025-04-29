@@ -3,4 +3,4 @@ env/
 .env*
 
 # Ignore logs
-app/data/log/*.log
+app/data/logs/*.log
