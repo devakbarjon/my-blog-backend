@@ -7,6 +7,7 @@ class ProjectBase(BaseModel):
     name: str
     description: str
     link: HttpUrl
+    photo: Optional[HttpUrl] = None  # URL or path to the project image
 
 
 class ProjectCreate(ProjectBase):
